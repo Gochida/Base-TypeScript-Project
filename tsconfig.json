@@ -1,10 +1,13 @@
 {
-    "files": [
-        "src/index.ts",
-        "src/module.ts"
-    ],
     "compilerOptions": {
         "noImplicitAny": true,
         "target": "es5"
-    }
+    },
+    "include": [
+        "src/**/*"    
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+     ]
 }
